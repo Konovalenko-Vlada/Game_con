@@ -19,3 +19,6 @@ G:\програм\Game_con\obj\Debug\ConsoleApplication143.pdb
 G:\програм\Game_con\obj\Debug\ConsoleApplication143.csprojResolveAssemblyReference.cache
 G:\програм\Game_con\bin\Debug\ConsoleApplication143.exe
 G:\програм\Game_con\bin\Debug\ConsoleApplication143.pdb
+F:\програм\Game_con\bin\Debug\ConsoleApplication143.exe.config
+F:\програм\Game_con\obj\Debug\ConsoleApplication143.exe
+F:\програм\Game_con\obj\Debug\ConsoleApplication143.pdb

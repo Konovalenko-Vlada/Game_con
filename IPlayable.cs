@@ -11,5 +11,6 @@ namespace ConsoleApplication143
         void Random();
         void Shift(int value);
         bool Result { get; }
+        public int this[int x, int y] { get; set; }
     }
 }

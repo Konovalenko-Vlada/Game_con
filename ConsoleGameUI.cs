@@ -8,7 +8,7 @@ namespace ConsoleApplication143
 {
     class ConsoleGameUI
     {
-        public Game3 Obj;
+        public IPlayable Obj;
         public int Count;
         public ConsoleGameUI()
         {
@@ -26,7 +26,7 @@ namespace ConsoleApplication143
             {
                 mas[i] = i;
             }          
-            Obj = new Game3(mas);
+            Obj = new Game3(mas);////?????
         }
 
         public void RedrawConsole()
@@ -36,7 +36,7 @@ namespace ConsoleApplication143
                 string str = "";
                 for (int j = 0; j < Math.Sqrt(Count); j++)
                 {
-                    str += Convert.ToString(Obj.Val[i, j]);
+                    str += Convert.ToString(Obj[i, j]); 
                     str += " ";
                 }
                 Console.WriteLine(str);
